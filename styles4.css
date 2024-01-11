@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 20px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+/*  for image 1  which has class a margin and height are set here */
+.a {
+    margin: 20px auto;
+    height: 200px;
+    width: 950px;
+    border: 1px solid black;
+}
+
+/*  for image 2 which has class a margin and height and border and width are set here */
+.b {
+    border: 3px solid black;
+    height: 233px;
+    margin: 20px auto;
+    width: 950px;
+}
+
+/*  for image 3which has class a margin,height, border, width are set here */
+
+.c {
+    margin: 20px auto;
+    height: 358px;
+    width: 950px;
+}
+
+/* clip path for class a img*/
+.a img {
+    width: 100%;
+    height: 238%;
+    clip-path: inset(0% -1% 64% 0%);
+}
+
+/* clip path for class b img*/
+.b img {
+    width: 100%;
+    height: 218%;
+    margin-top: -32%;
+    clip-path: inset(60% -1% 0% 0%);
+}
+
+.image {
+    height: 300px;
+    width: 500px;
+    margin: 20px auto;
+}
+
+.image img {
+    height: 300px;
+    width: 500px;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+h1 {
+    margin: 0 0 2px 5px;
+}
